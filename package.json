@@ -1,0 +1,29 @@
+{
+  "name": "@hoya25/nctr-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for the NCTR Alliance rewards program. Enables AI agents to discover bounties, earning rates, tier requirements, promotions, and Impact Engine communities.",
+  "mcpName": "io.github.hoya25/nctr-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hoya25/mcp-server.git"
+  },
+  "keywords": [
+    "mcp",
+    "rewards",
+    "loyalty",
+    "nctr",
+    "bounties",
+    "model-context-protocol"
+  ],
+  "author": "NCTR Alliance <anderson@butterflystudios.live>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "supabase functions serve --no-verify-jwt mcp",
+    "deploy": "supabase functions deploy --no-verify-jwt mcp",
+    "test": "bash test-mcp-server.sh",
+    "inspector": "npx @modelcontextprotocol/inspector"
+  }
+}

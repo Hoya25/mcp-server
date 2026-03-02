@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.hoya25/nctr-mcp-server",
+  "description": "NCTR Alliance rewards program — search bounties, check earning rates by tier, discover Impact Engine communities, and get onboarding links. The first rewards and loyalty MCP server.",
+  "repository": {
+    "url": "https://github.com/Hoya25/mcp-server",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@hoya25/nctr-mcp-server",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "transportType": "streamable-http",
+      "url": "https://yhwcaodofmbusjurawhp.supabase.co/functions/v1/mcp/rpc"
+    }
+  ]
+}
