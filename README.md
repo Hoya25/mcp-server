@@ -1,3 +1,5 @@
+Last updated: March 26, 2026
+
 # NCTR Alliance MCP Server
 
 **The first rewards and loyalty MCP server.** Enables AI agents to discover and interact with the NCTR Alliance rewards program — bounties, earning rates, tier progression, promotions, and Impact Engine communities.

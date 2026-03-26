@@ -1,8 +1,8 @@
 {
   "name": "@hoya25/nctr-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "MCP server for the NCTR Alliance rewards program. Enables AI agents to discover bounties, earning rates, tier requirements, promotions, and Impact Engine communities.",
-  "mcpName": "io.github.hoya25/nctr-mcp-server",
+  "mcpName": "io.github.Hoya25/nctr-mcp-server",
   "repository": {
     "type": "git",
     "url": "https://github.com/Hoya25/mcp-server.git"
