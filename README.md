@@ -1,3 +1,9 @@
+> **Archived.** This server is superseded by the hosted **Bounty** connector at
+> `https://api.nctr.live/mcp/bounty` (two read-only tools: `get_bounty`, `search_stores`), and by
+> the Bounty plugin in [Hoya25/bounty-agent-skill](https://github.com/Hoya25/bounty-agent-skill/tree/main/plugin).
+> The npm package `@hoya25/nctr-mcp-server` is deprecated, and its MCP Registry entry is marked
+> deprecated with a pointer to the hosted connector.
+
 Last updated: March 26, 2026
 
 # NCTR Alliance MCP Server
